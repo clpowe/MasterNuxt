@@ -22,20 +22,20 @@ export default {
   },
   methods: {
     getImageUrl(publicId) {
-      // const a = this.$img(
-      // 	publicId,
-      // 	{
-      // 		width: 600
-      // 	},
-      // 	{ provider: 'cloudinary' }
-      // )
+      const a = this.$img(
+        publicId,
+        {
+          width: 600
+        },
+        { provider: "cloudinary" }
+      );
 
-      const b = this.$cloudinary.image.url(publicId, {
-        width: 600,
-        crop: "scale"
-      });
+      // const b = this.$cloudinary.image.url(publicId, {
+      //   width: 600,
+      //   crop: "scale"
+      // });
 
-      return b;
+      return a;
     }
   }
 };

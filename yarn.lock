@@ -5047,6 +5047,24 @@ ipx@^0.6.4:
     ufo "^0.7.5"
     xss "^1.0.9"
 
+ipx@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/ipx/-/ipx-0.7.2.tgz#4c10245236c07d46bbe4700cfef02d4b9e71992d"
+  integrity sha512-ljKq3SDv/6dZPUGUzem5L2N70IIQkEcMH02nnFYoO793o8zsebUY+ZswjJjW6Nx9Suh+oZVGD5wSbWezmwfrnA==
+  dependencies:
+    consola "^2.15.3"
+    defu "^5.0.0"
+    destr "^1.1.0"
+    etag "^1.8.1"
+    fs-extra "^10.0.0"
+    image-meta "^0.0.1"
+    is-valid-path "^0.1.1"
+    listhen "^0.2.4"
+    node-fetch "^2.6.1"
+    sharp "^0.28.3"
+    ufo "^0.7.7"
+    xss "^1.0.9"
+
 is-absolute-url@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/is-absolute-url/-/is-absolute-url-2.1.0.tgz#50530dfb84fcc9aa7dbe7852e83a37b93b9f2aa6"
