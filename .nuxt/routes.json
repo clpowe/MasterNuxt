@@ -1,0 +1,46 @@
+[
+  {
+    "name": "admin",
+    "path": "/admin",
+    "component": "/Volumes/chrisSSD/Coding-practice/NUXTBNB/pages/admin.vue",
+    "chunkName": "pages/admin",
+    "children": [
+      {
+        "name": "admin-homes",
+        "path": "homes",
+        "component": "/Volumes/chrisSSD/Coding-practice/NUXTBNB/pages/admin/homes.vue",
+        "chunkName": "pages/admin/homes",
+        "_name": "_08e8e37e"
+      }
+    ],
+    "_name": "_44316f1c"
+  },
+  {
+    "name": "no-access",
+    "path": "/no-access",
+    "component": "/Volumes/chrisSSD/Coding-practice/NUXTBNB/pages/no-access.vue",
+    "chunkName": "pages/no-access",
+    "_name": "_141397bd"
+  },
+  {
+    "name": "search",
+    "path": "/search",
+    "component": "/Volumes/chrisSSD/Coding-practice/NUXTBNB/pages/search.vue",
+    "chunkName": "pages/search",
+    "_name": "_1d7fbbaa"
+  },
+  {
+    "name": "home-id",
+    "path": "/home/:id?",
+    "component": "/Volumes/chrisSSD/Coding-practice/NUXTBNB/pages/home/_id.vue",
+    "chunkName": "pages/home/_id",
+    "_name": "_77bfe94d"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Volumes/chrisSSD/Coding-practice/NUXTBNB/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_12c21b1f"
+  }
+]
