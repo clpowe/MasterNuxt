@@ -1,5 +1,3 @@
-require("sharp");
-
 export default {
   components: true,
   head: {

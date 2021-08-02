@@ -5,6 +5,7 @@ import NuxtPicture from '~image/components/nuxt-picture.vue'
 
 import * as staticRuntime$e4f8 from '/Volumes/chrisSSD/Coding-practice/NUXTBNB/node_modules/@nuxt/image/dist/runtime/providers/static.js'
 import * as cloudinaryRuntime$3a24 from '/Volumes/chrisSSD/Coding-practice/NUXTBNB/node_modules/@nuxt/image/dist/runtime/providers/cloudinary.js'
+import * as ipxRuntime$8d45 from '/Volumes/chrisSSD/Coding-practice/NUXTBNB/node_modules/@nuxt/image/dist/runtime/providers/ipx.js'
 
 const imageOptions = {
   "screens": {
@@ -17,14 +18,15 @@ const imageOptions = {
     "2xl": 1536
   },
   "presets": {},
-  "provider": "static",
+  "provider": "ipx",
   "domains": [],
   "alias": {}
 }
 
 imageOptions.providers = {
   ['static']: { provider: staticRuntime$e4f8, defaults: {} },
-  ['cloudinary']: { provider: cloudinaryRuntime$3a24, defaults: {"baseURL":"https://res.cloudinary.com/dakmxbppg/image/upload/"} }
+  ['cloudinary']: { provider: cloudinaryRuntime$3a24, defaults: {"baseURL":"https://res.cloudinary.com/dakmxbppg/image/upload/"} },
+  ['ipx']: { provider: ipxRuntime$8d45, defaults: {} }
 }
 
 Vue.component(NuxtImg.name, NuxtImg)
