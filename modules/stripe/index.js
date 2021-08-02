@@ -26,7 +26,7 @@ export default function() {
         meta.start,
         meta.end
       );
-      res.end(`${meta.identityId} booked ${meta.homeId}!!!!!!`);
+      res.end(`${meta.identityId} booked ${meta.homeId}!!!!`);
     });
   });
 

@@ -41,7 +41,12 @@ export default algoliaConfig => {
             {
               headers,
               method: "POST",
-              body: JSON.stringify(identityId, homeId, start, end)
+              body: JSON.stringify({
+                identityId,
+                homeId,
+                start,
+                end
+              })
             }
           )
         );
