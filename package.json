@@ -33,5 +33,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "packageManager": "yarn@1.22.1"
+  "packageManager": "yarn@1.22.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clpowe/MasterNuxt.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/clpowe/MasterNuxt/issues"
+  },
+  "homepage": "https://github.com/clpowe/MasterNuxt#readme"
 }
