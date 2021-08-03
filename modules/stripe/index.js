@@ -9,7 +9,7 @@ export default function() {
   const secretKey = this.options.privateRuntimeConfig.stripe.secretKey;
   const stripe = stripeLib(secretKey);
 
-  const rootUrl = this.options.rootUrl;
+  const rootUrl = this.options.publicRuntimeConfig.rootUrl;
 
   const cloudName = this.options.cloudinary.cloudName;
 

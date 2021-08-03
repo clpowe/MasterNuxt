@@ -1,8 +1,4 @@
 export default {
-  rootUrl:
-    process.env.NODE_ENV === "production"
-      ? "https://master-nuxt.vercel.app"
-      : "http://localhost:3000",
   components: true,
   head: {
     titleTemplate: "Mastering Nuxt: %s",
@@ -68,6 +64,10 @@ export default {
     }
   },
   privateRuntimeConfig: {
+    rootUrl:
+      process.env.NODE_ENV === "production"
+        ? "https://master-nuxt.vercel.app"
+        : "http://localhost:3000",
     algolia: {
       appId: "YARTXA3F22",
       apiKey: "f42d12ed7b1cc36f04c4e79a57eb5e6a"
