@@ -19,7 +19,7 @@ export default {
   computed: {
     getSchema() {
       return JSON.stringify({
-        "@context": "https//schema.org",
+        "@context": "https://schema.org",
         "@type": "BedAndBreakfast",
         name: this.home.title,
         image: this.$img(
