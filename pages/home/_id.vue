@@ -35,7 +35,7 @@ export default {
           streetAddress: this.home.location.address
         },
         aggregateRating: {
-          "@type": "AggrigateRating",
+          "@type": "AggregateRating",
           ratingValue: this.home.reviewValue,
           reviewCount: this.home.reviewCount
         }
