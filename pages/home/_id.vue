@@ -33,7 +33,7 @@ export default {
           content: this.$img(
             this.home.images[0],
             { width: 1200 },
-            { provider: "cloudinary " }
+            { provider: "cloudinary" }
           )
         },
         {
