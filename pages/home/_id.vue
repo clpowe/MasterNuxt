@@ -30,16 +30,16 @@ export default {
         {
           hid: "og-image",
           property: "og:image",
-          content: `${this.$config.rootUrl}/home/${this.home.objectID}`
+          content: this.$img(
+            this.home.images[0],
+            { width: 1200 },
+            { provider: "cloudinary " }
+          )
         },
         {
           hid: "og-url",
           property: "og:url",
-          content: this.$img(
-            this.home.images[0],
-            { width: 1200 },
-            { provider: "cloudinary" }
-          )
+          content: `${this.$config.rootUrl}/home/${this.home.objectID}`
         }
       ]
     };
